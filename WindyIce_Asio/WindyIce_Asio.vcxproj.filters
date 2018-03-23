@@ -14,4 +14,22 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="源.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Server.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\Documents\C++ lib\paho.mqtt.cpp-master\build\src\OBJS.dir\Debug\OBJS.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="paho-mqtt3a.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+  </ItemGroup>
 </Project>
